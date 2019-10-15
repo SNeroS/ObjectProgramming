@@ -13,12 +13,7 @@ public class ServiceStation {
         for(int i = 0; i < 10; i++)
             _pump.add(i, new Pump(capacity, i));  
     }
-
-    /*public ArrayList<Pump> getPump() {
-        return _pump;
-    }
-    */
-
+    
     public boolean isEmpty() {
         return _fuel == 0;
     }
