@@ -15,12 +15,12 @@ public class HeavyVehicle extends Vehicle {
 
     public void accelerate() {
         _accelerationCounter++;
-        System.out.println("VRUM VRUM");
+        super.accelerate();
     }
 
     public void brake() {
         _brakeCounter++;
-        System.out.println("GRRR GRRR");
+        super.brake();
     }
 
     public void counters() {
