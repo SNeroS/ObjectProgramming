@@ -28,6 +28,10 @@ public class Vehicle {
         return _associatedStation;
     }
 
+    public void switchStation(ServiceStation station) {
+        _associatedStation = station;
+    }
+
     public int fuelCar(int fuel, int id) {
         return _associatedStation.fuelStation(fuel, id);
     }
